@@ -182,7 +182,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: #59b8e4;
 }
 
 .nav-menu a:hover i,
@@ -200,7 +200,7 @@ h6 {
   z-index: 9998;
   border: 0;
   font-size: 24px;
-  transition: all 0.4s;
+  /**transition: all 0.4s;*/
   outline: none !important;
   background-color: #149ddd;
   color: #fff;
@@ -220,6 +220,7 @@ h6 {
 
 .mobile-nav-active #header {
   left: 0;
+  line-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -1114,7 +1115,7 @@ section {
 
 .boton-enlace:hover {
   border-radius: 2px;
-  background-color: #86b5f1;
+  background-color: #88b6f1;
   height: auto;
 }
 
@@ -1128,3 +1129,5 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
  }
+
+  
